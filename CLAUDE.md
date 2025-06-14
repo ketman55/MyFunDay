@@ -1,17 +1,30 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+このファイルは、Claude Code (claude.ai/code) がこのリポジトリでコードを扱う際のガイダンスを提供します。
 
-## Project Overview
+## プロジェクト概要
 
-MyFunDay is a new project that is currently in its initial setup phase. The repository contains minimal structure and is ready for development.
+MyFunDayは初期設定段階にある新しいプロジェクトです。リポジトリには最小限の構造が含まれており、開発の準備が整っています。
 
-## Current State
+## 現在の状況
 
-- This is a new Git repository with an initial commit
-- No build system, dependencies, or code structure has been established yet
-- The project is ready for initial development and architecture decisions
+- 初期コミットを含む新しいGitリポジトリです
+- ビルドシステム、依存関係、コード構造はまだ確立されていません
+- 初期開発とアーキテクチャ決定の準備が整った状態です
 
-## Development Setup
+## 開発セットアップ
 
-Since this is a new project, development commands and architecture will be established based on the technology stack chosen during initial development.
+これは新しいプロジェクトのため、初期開発中に選択される技術スタックに基づいて、開発コマンドとアーキテクチャが確立される予定です。
+
+## 認証情報
+
+GitHub認証情報は `.env.local` ファイルに保存されています：
+- GITHUB_USERNAME: GitHubユーザー名
+- GITHUB_EMAIL: GitHubメールアドレス  
+- GITHUB_TOKEN: GitHubアクセストークン
+
+このファイルは `.gitignore` によってリポジトリから除外されています。
+
+## プルリクエストの言語設定
+
+**重要**: このプロジェクトでは、プルリクエストのタイトルと説明は日本語で作成してください。GitHub上でのコミュニケーションを日本語で統一することで、プロジェクトの一貫性を保ちます。
