@@ -6,6 +6,10 @@
 # GitHub CLI authentication
 gh_*.tar.gz
 
+# Flutter related files
+flutter/
+flutter_linux.tar.xz
+
 # Temporary files
 *.tmp
 *.temp
